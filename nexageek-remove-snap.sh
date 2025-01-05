@@ -74,6 +74,7 @@ if [[ "$install_flatpak" == "y" ]]; then
 
   # Install GNOME Software plugin for Flatpak
   print_info "Installing GNOME Software plugin for Flatpak..."
+  sudo apt install gnome-software -y
   sudo apt install gnome-software-plugin-flatpak -y
 
   # Add the Flathub repository
